@@ -1,0 +1,1 @@
+the words count using io method
