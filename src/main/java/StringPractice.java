@@ -103,22 +103,22 @@ public class StringPractice {
 		}
 			*/
 		
-		/*
-		 * //7)--------Find frequency of elements in Array, remove duplicate and print
-		 * array elements int[] arr4=new int[] {1,2,1,3,4,5,3,2,1,5,6,5,6,3,7,7}; int[]
-		 * fr = new int[arr4.length]; int visited=-1;
-		 * 
-		 * for(int i=0;i<arr4.length;i++) { int count =1; for(int
-		 * j=i+1;j<arr4.length;j++) {
-		 * 
-		 * if (arr4[i]==arr4[j]) { count++; fr[j]= visited; } }
-		 * 
-		 * if (fr[i]!= visited) System.out.println(arr4[i]+"  "+count);
-		 * 
-		 * 
-		 * 
-		 * }
-		 */
+		
+		  //7)--------Find frequency of elements in Array, remove duplicate and print array elements 
+		  int[] arr4=new int[] {1,2,1,3,4,5,3,2,1,5,6,5,6,3,7,7}; int[]
+		  fr = new int[arr4.length]; int visited=-1;
+		  
+		  for(int i=0;i<arr4.length;i++) { int count =1; for(int
+		  j=i+1;j<arr4.length;j++) {
+		  
+		  if (arr4[i]==arr4[j]) { count++; fr[j]= visited; } }
+		  
+		  if (fr[i]!= visited) System.out.println(arr4[i]+"  "+count);
+		  
+		  
+		  
+		  }
+		 
 		
 		
 	}
